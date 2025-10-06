@@ -1,3 +1,6 @@
+#pragma once
 #include <string>
 
-std::string hello();
+using namespace std;
+
+int strcmp_case_insensitive(string s1, string s2);
